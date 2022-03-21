@@ -1,0 +1,33 @@
+Wild Rydes
+Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+
+Wild Rydes Auth workshop
+REACT+cognito+S3 (aws Amplify)
+setup
+======
+curl -O https://serverless-workshops-artifacts.s3.amazonaws.com/serverless-auth/master/website.tar.gz
+tar xvf website.tar.gz
+nvm install v16 && nvm alias default v16 && nvm use v16
+npm install -g yarn
+cd ~/environment/website/
+yarn install
+
+launch 
+=======
+yarn start
+
+
+
+
+pool id : us-east-1_fdPibIfav
+appclient id :  2vo904q3t2u9ujh4kcmu3hen6l
+identity pool :   us-east-1:47be2bef-f4fa-4e1f-a34b-3373d86fcc3e
+API url enpoint : https://pbtwsozje9.execute-api.us-east-1.amazonaws.com/prod
+Launch the cloud formation template YAML
+
+API AWS with cognito and AWS IAM
+
+
+futher docs :
+secure lambda in prod :  https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html
